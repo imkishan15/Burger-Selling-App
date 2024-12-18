@@ -1,0 +1,46 @@
+.logo_pic img{
+    height: 3em;
+    margin: 0.5em;
+    margin-left: 1em;
+    border-radius: 0.8em;
+    
+}
+h6{
+    font-size: 0.5em;
+}
+.navbar{
+    font-size: 1.2em;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: rgb(162, 33, 33);
+    align-items: center;
+    border-radius: 0.5em;
+    margin: 0em 1em;
+}
+.mid{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+.menu{
+    padding: 0.5em;
+}
+.menu img{
+    height: 2.5em;
+    padding: 0.5em;
+    width: 2.8em;
+}
+.menu:hover{
+    background-color: rgb(90, 9, 9);
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+.right{
+    display: flex;
+    gap: 1em;
+    justify-content: right;
+    align-items: center;
+    margin-right: 2em;
+}

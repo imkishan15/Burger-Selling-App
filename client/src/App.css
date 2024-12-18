@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+#root{
+  height: 100%;
+}
+
+.App{
+  height: 100vh;
+  background-image: url('./imgs/output-onlinepngtools.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.bg{
+  background: #000000cb;
+  height: 100%;
+}

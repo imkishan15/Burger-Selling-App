@@ -1,0 +1,36 @@
+.imagel img{
+    height: 14em;
+    border-radius: 2em;
+    margin: 1.5em;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background: #00000073;
+    margin: 1em;
+    font-size: 0.8em;
+    border-radius: 0.7em;
+}
+.content{
+    margin: 1.5em 8em;
+}
+
+.bton button{
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+    font-size: 0.9em;
+    margin: 1em 2em;
+    background: blue;
+}
+
+
+
+.bton button:hover{
+    background: #006e76;
+    color: aliceblue;
+
+}
+.heading{
+    font-size: 1.2em;
+    color: aqua;
+}
